@@ -1,0 +1,20 @@
+scikit-image
+trimesh
+omegaconf
+tqdm
+huggingface_hub
+einops
+numpy
+transformers==4.40.2
+diffusers
+# triton==3.1.0
+flash-attn; platform_system == "Linux"
+pymeshfix
+utils3d
+pyvista
+igraph
+git+https://github.com/mit-han-lab/torchsparse.git; platform_system == "Linux"
+# git+https://github.com/Deathdadev/torchsparse.git
+https://github.com/Deathdadev/torchsparse/releases/download/v2.1.0-windows/torchsparse-2.1.0-cp310-cp310-win_amd64.whl; platform_system == "Windows"
+
+third_party/voxelize/

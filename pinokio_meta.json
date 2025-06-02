@@ -1,4 +1,21 @@
 {
-  "links": [],
+  "links": [
+    {
+      "title": "x",
+      "value": "https://x.com/DeathDaDev"
+    },
+    {
+      "title": "github",
+      "value": "https://github.com/Deathdadev"
+    },
+    {
+      "title": "buymeacoffee",
+      "value": "https://buymeacoffee.com/deathdadev"
+    },
+    {
+      "title": "kofi",
+      "value": "https://ko-fi.com/deathdev"
+    }
+  ],
   "posts": []
 }
