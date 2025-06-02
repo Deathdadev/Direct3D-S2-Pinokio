@@ -2,7 +2,7 @@ const path = require('path')
 module.exports = {
   version: "3.7",
   title: "Direct3D-S2",
-  description: "",
+  description: "[NVIDIA ONLY] Direct3D-S2 is a scalable 3D shape generation framework leveraging sparse volumetric representations for high-resolution outputs. It features Spatial Sparse Attention (SSA), a novel mechanism that accelerates Diffusion Transformer computations on sparse data, achieving up to 9.6× speedup in training. The unified Sparse VAE architecture maintains a consistent sparse volumetric format across input, latent, and output stages, significantly improving efficiency and stability.",
   icon: "icon.png",
   menu: async (kernel, info) => {
     let installed = info.exists("app/env")
